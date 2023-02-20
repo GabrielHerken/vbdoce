@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vbdoce/static/css/main.ae6a936c.css",
+    "main.js": "/vbdoce/static/js/main.cca099c8.js",
+    "index.html": "/vbdoce/index.html",
+    "main.ae6a936c.css.map": "/vbdoce/static/css/main.ae6a936c.css.map",
+    "main.cca099c8.js.map": "/vbdoce/static/js/main.cca099c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae6a936c.css",
+    "static/js/main.cca099c8.js"
+  ]
+}
