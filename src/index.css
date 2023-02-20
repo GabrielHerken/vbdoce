@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Montserrat&display=swap');
 
 *::before, *::after, * {
     margin: 0;
@@ -9,12 +9,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #9adbdf;
+    margin-bottom: 2rem;
 }
 
 header {
     background-color: #f9343d;
     color: #fff7ea;
     box-shadow: 0 0.5rem 2rem 1rem black;
+}
+
+.not-visible {
+    display: none;
 }
 
 .header-navigation ul {
@@ -41,13 +46,69 @@ header {
     align-items: center;
 }
 
-.header-navigation ul li a {
+.header-navigation ul li{
     font-weight: 100;
     transition-property: color;
     transition-duration: .25s;
 }
 
-.header-navigation ul li a:hover {
+.header-navigation ul li:hover {
     color: #fff7ea75;
     cursor: pointer;
+}
+
+.products-table {
+    margin-top: 3rem;
+    padding: 0 5rem;
+}
+
+.products-group div {
+    font-size: 1.5rem;
+}
+
+.products-group summary {
+    font-size: 1.5rem;
+    list-style-position: outside;
+}
+
+.products-group ul {
+    padding: .5rem 0;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.products-group .products-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.products-group div a:any-link {
+    color: #00065f;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.products-group div:not(.products-title) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .25rem;
+}
+
+.products-group div div {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.products-group div div span {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: 400;
 }
